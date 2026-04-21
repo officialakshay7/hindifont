@@ -1,0 +1,11 @@
+# Cloudflare Pages _redirects — path-based rules only
+# NOTE: www → non-www redirect is handled in Cloudflare Dashboard
+#       under Domains > hindifont.co.in > Add www redirect
+
+# Common typo paths → correct paths
+/font/*         /fonts/:splat  301
+/download/*     /fonts/        302
+/hindi-font/*   /fonts/        301
+
+# 404 fallback (must be last)
+/*  /404.html  404
