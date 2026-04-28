@@ -705,6 +705,11 @@ pre{background:var(--ink);color:#A5F3A5;padding:18px;border-radius:var(--r12);ov
   .key.space-key{min-width:140px}
 }
 </style>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hindi Font Preview Tool — सभी Fonts में Text देखें | HindiFont.co.in">
+  <meta name="twitter:description" content="Hindi font preview tool — अपना text type करें और 12+ fonts में एक साथ देखें। Noto Sans, Hind, Baloo, Rozha One। Free, no login।">
+  <meta name="twitter:image" content="https://hindifont.co.in/og-image.png">
+  <meta name="twitter:site" content="@hindifontcoin">
 </head>
 <body>
 <header id="hdr">
@@ -889,13 +894,6 @@ pre{background:var(--ink);color:#A5F3A5;padding:18px;border-radius:var(--r12);ov
 </body>
 <script>
 (function(){
-document.querySelectorAll('.faq-btn').forEach(function(b){
-  b.addEventListener('click',function(){
-    var it=b.closest('.faq-item'),op=it.classList.contains('on');
-    document.querySelectorAll('.faq-item.on').forEach(function(i){i.classList.remove('on');});
-    if(!op)it.classList.add('on');
-  });
-});
 
 var FP_FONTS = [
   {name:'Noto Sans Devanagari', css:"'Noto Sans Devanagari',serif", slug:'noto-sans-devanagari', tag:'Unicode'},
