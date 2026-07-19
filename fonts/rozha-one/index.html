@@ -580,7 +580,8 @@ pre{background:var(--ink);color:#A5F3A5;padding:18px;border-radius:var(--r12);ov
     <a href="/">Home</a>
     <a href="/fonts/">Fonts</a>
     <a href="/category/">Categories</a>
-    <a href="/tools/">Tools</a>
+    <a href="/translate/">Translate</a>
+        <a href="/tools/">Tools</a>
     <a href="/typing-test/">Typing Test</a>
     <a href="/blog/">Blog</a>
     <a href="/about/">About</a>
@@ -599,6 +600,7 @@ pre{background:var(--ink);color:#A5F3A5;padding:18px;border-radius:var(--r12);ov
   <a href="/category/">📂 Categories</a>
   <a href="/tools/">🛠️ Hindi Tools</a>
   <a href="/typing-test/">⌨️ Typing Tests</a>
+  <a href="/translate/">🌐 Translation</a>
   <a href="/blog/">📖 Blog & Guides</a>
   <a href="/about/">ℹ️ About Us</a>
   <a href="/contact/">✉️ Contact</a>
@@ -645,7 +647,32 @@ pre{background:var(--ink);color:#A5F3A5;padding:18px;border-radius:var(--r12);ov
   <div class="tip"><p><strong>💡 Mac पर Install:</strong> .ttf download करें → Font Book app में drag करें → Install Font click करें। Done!</p></div>
 
   <h2 class="fd-h2">Frequently Asked Questions</h2>
-  <div class="faq-list"><div class="faq-item">
+  
+<h2 class="blog-h2">Rozha One — Modern Digital Hindi के लिए</h2>
+<p>Rozha One एक modern Unicode Devanagari font है जो digital age की ज़रूरतों के लिए designed किया गया है। Website, mobile app, digital documents — हर जगह perfect।</p>
+<p>Unicode font होने के कारण Rozha One में type किया text हर device पर correctly दिखता है — बिना font install किए। यही इसे ANSI fonts से fundamentally different बनाता है।</p>
+
+<h2 class="blog-h2">Rozha One के Best Use Cases</h2>
+<div class="steps">
+<div class="step"><div class="step-n">🌐</div><div class="step-b"><p><strong>Websites:</strong> Hindi blog, e-commerce, news portal — सभी के लिए excellent। Google Fonts CDN से directly load करें।</p></div></div>
+<div class="step"><div class="step-n">📱</div><div class="step-b"><p><strong>Mobile Apps:</strong> Android और iOS apps में Hindi text के लिए perfect rendering।</p></div></div>
+<div class="step"><div class="step-n">📧</div><div class="step-b"><p><strong>Email और Social Media:</strong> Unicode text सभी email clients और social platforms पर correctly show होता है।</p></div></div>
+<div class="step"><div class="step-n">📄</div><div class="step-b"><p><strong>Documents:</strong> Modern office documents, presentations, और reports में professional Hindi typography।</p></div></div>
+</div>
+
+<h2 class="blog-h2">Website में Rozha One Add करें</h2>
+<p>HTML में add करना simple है:</p>
+<pre style="background:var(--ink2);color:#aaa;padding:14px 18px;border-radius:12px;overflow-x:auto;font-size:.82rem;margin:12px 0">&lt;link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet"&gt;</pre>
+<p>CSS में: <code>font-family: 'Rozha One', sans-serif;</code></p>
+
+<h2 class="blog-h2">Performance Tips</h2>
+<p>Web fonts page speed को affect करते हैं। Best practices:</p>
+<p>1. सिर्फ ज़रूरी weights load करें (Regular 400 और Bold 700 usually enough)।</p>
+<p>2. <code>display=swap</code> always include करें।</p>
+<p>3. <code>&lt;link rel="preconnect"&gt;</code> fonts.googleapis.com के लिए add करें।</p>
+<div class="tip"><p><strong>💡 Font Stack:</strong> Fallback fonts भी specify करें: <code>'Rozha One', 'Noto Sans Devanagari', sans-serif</code> — इससे font load होने से पहले भी Hindi text readable रहेगा।</p></div>
+
+<div class="faq-list"><div class="faq-item">
   <button class="faq-btn"><span class="faq-q">Rozha posters के लिए best है?</span><i class="faq-ico">+</i></button>
   <div class="faq-ans"><div class="faq-ans-inner">हाँ — bold display के लिए excellent।</div></div>
 </div></div>
@@ -713,6 +740,7 @@ pre{background:var(--ink);color:#A5F3A5;padding:18px;border-radius:var(--r12);ov
     <a href="/privacy-policy/">Privacy Policy</a>
     <a href="/disclaimer/">Disclaimer</a>
     <a href="/terms/">Terms of Use</a>
+    <a href="/translate/">Translation Tools</a>
     <a href="/tools/">Hindi Font Tools</a>
     <a href="/typing-test/">Typing Tests</a>
     <a href="/sitemap.xml">Sitemap</a>
@@ -720,7 +748,8 @@ pre{background:var(--ink);color:#A5F3A5;padding:18px;border-radius:var(--r12);ov
 </div>
 <div class="ft-bottom">
   <span>© 2026 HindiFont.co.in — All Rights Reserved</span>
-  <span>Made with ❤️ for India &nbsp;|&nbsp; <a href="/tools/">Hindi Font Tools</a>
+  <span>Made with ❤️ for India &nbsp;|&nbsp; <a href="/translate/">Translation Tools</a>
+    <a href="/tools/">Hindi Font Tools</a>
     <a href="/typing-test/">Typing Tests</a>
     <a href="/sitemap.xml">Sitemap</a> &nbsp;|&nbsp; <a href="/privacy-policy/">Privacy</a></span>
 </div>
@@ -776,27 +805,7 @@ pre{background:var(--ink);color:#A5F3A5;padding:18px;border-radius:var(--r12);ov
   });
 })();
 </script>
-<!-- Google Analytics lazy loading -->
- <script>
-(function(){
-  var loaded=false;
-  function loadGA(){
-    if(loaded)return;
-    loaded=true;
-    var s=document.createElement('script');
-    s.src='https://www.googletagmanager.com/gtag/js?id=G-BS3C77JGXZ';
-    s.async=true;
-    document.head.appendChild(s);
-    window.dataLayer=window.dataLayer||[];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js',new Date());
-    gtag('config','G-BS3C77JGXZ',{'transport_type':'beacon','send_page_view':true});
-    window.gtag=gtag;
-  }
-  window.addEventListener('scroll',loadGA,{once:true,passive:true});
-  window.addEventListener('click',loadGA,{once:true,passive:true});
-  window.addEventListener('touchstart',loadGA,{once:true,passive:true});
-  setTimeout(loadGA,5000);
-})();
+<script>
+(function(){var loaded=false;function loadGA(){if(loaded)return;loaded=true;var s=document.createElement('script');s.src='https://www.googletagmanager.com/gtag/js?id=G-BS3C77JGXZ';s.async=true;document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-BS3C77JGXZ',{'transport_type':'beacon','send_page_view':true});window.gtag=gtag;}window.addEventListener('scroll',loadGA,{once:true,passive:true});window.addEventListener('click',loadGA,{once:true,passive:true});window.addEventListener('touchstart',loadGA,{once:true,passive:true});setTimeout(loadGA,5000);})();
 </script>
 </body></html>
