@@ -309,12 +309,6 @@
        <priority>0.8000</priority>
   </url>
   <url>
-       <loc>https://hindifont.co.in/sitemap.xml</loc>
-       <lastmod>2026-08-05T04:43:26+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
        <loc>https://hindifont.co.in/translate/english-to-hindi/</loc>
        <lastmod>2026-08-05T04:43:26+00:00</lastmod>
        <changefreq>daily</changefreq>
@@ -608,4 +602,43 @@
        <changefreq>daily</changefreq>
        <priority>0.2097</priority>
   </url>
+     <url><loc>https://hindifont.co.in/blog/hindi-blog-writing-seo-guide/</loc><lastmod>2026-08-22</lastmod><priority>0.6400</priority></url>
+     <url><loc>https://hindifont.co.in/blog/railway-typing-test-guide/</loc><lastmod>2026-08-22</lastmod><priority>0.6400</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/agra/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/amita/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/aparajita/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/baloo-2/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/chandas/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/devlys-010/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/devlys-020/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/hind/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/kokila/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/kruti-dev-010/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/kruti-dev-020/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/laila/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/lohit-devanagari/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/mangal/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/mukta/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/noto-sans-devanagari/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/noto-serif-devanagari/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/ponnala/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/preeti/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/richa/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/rozha-one/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/shree-lipi/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/teko/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/tiro-devanagari-hindi/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/walkman-chanakya/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/fonts/yatra-one/download/</loc><lastmod>2026-08-22</lastmod><priority>0.4000</priority></url>
+     <url><loc>https://hindifont.co.in/translate/hindi-to-bengali/</loc><lastmod>2026-08-22</lastmod><priority>0.6400</priority></url>
+     <url><loc>https://hindifont.co.in/translate/hindi-to-gujarati/</loc><lastmod>2026-08-22</lastmod><priority>0.6400</priority></url>
+     <url><loc>https://hindifont.co.in/translate/hindi-to-marathi/</loc><lastmod>2026-08-22</lastmod><priority>0.6400</priority></url>
+     <url><loc>https://hindifont.co.in/translate/hindi-to-punjabi/</loc><lastmod>2026-08-22</lastmod><priority>0.6400</priority></url>
+     <url><loc>https://hindifont.co.in/translate/hindi-to-tamil/</loc><lastmod>2026-08-22</lastmod><priority>0.6400</priority></url>
+     <url><loc>https://hindifont.co.in/translate/hindi-to-telugu/</loc><lastmod>2026-08-22</lastmod><priority>0.6400</priority></url>
+     <url><loc>https://hindifont.co.in/translate/marathi-to-hindi/</loc><lastmod>2026-08-22</lastmod><priority>0.6400</priority></url>
+     <url><loc>https://hindifont.co.in/translate/punjabi-to-hindi/</loc><lastmod>2026-08-22</lastmod><priority>0.6400</priority></url>
+     <url><loc>https://hindifont.co.in/typing-test/high-court-typing-test/</loc><lastmod>2026-08-22</lastmod><priority>0.6400</priority></url>
+     <url><loc>https://hindifont.co.in/typing-test/railway-typing-test/</loc><lastmod>2026-08-22</lastmod><priority>0.6400</priority></url>
+     <url><loc>https://hindifont.co.in/typing-test/steno-typing-test/</loc><lastmod>2026-08-22</lastmod><priority>0.6400</priority></url>
 </urlset>
