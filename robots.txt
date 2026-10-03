@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /fonts/*/download/
 
 Sitemap: https://hindifont.co.in/sitemap.xml

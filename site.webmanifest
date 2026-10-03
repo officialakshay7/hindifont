@@ -1,7 +1,7 @@
 {
   "name": "HindiFont.co.in",
   "short_name": "HindiFont",
-  "description": "India का #1 Free Hindi Font Download Website — 500+ fonts",
+  "description": "Free Hindi fonts, Kruti Dev ↔ Unicode converters और typing tests",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0D0C0A",
@@ -21,8 +21,7 @@
     {
       "src": "/favicon.svg",
       "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "maskable"
+      "type": "image/svg+xml"
     }
   ]
 }

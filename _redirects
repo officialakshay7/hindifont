@@ -1,11 +1,26 @@
 # Cloudflare Pages _redirects — path-based rules only
 # NOTE: www → non-www redirect is handled in Cloudflare Dashboard
 #       under Domains > hindifont.co.in > Add www redirect
+# NOTE: No catch-all 404 rule — Cloudflare Pages serves /404.html automatically
+#       for unknown URLs with a real 404 status.
+
+# Merged duplicate tools (same search intent → one stronger page)
+/tools/kruti-dev-to-mangal/   /tools/kruti-dev-to-unicode/   301
+/tools/kruti-dev-to-mangal    /tools/kruti-dev-to-unicode/   301
+/tools/mangal-to-kruti-dev/   /tools/unicode-to-kruti-dev/   301
+/tools/mangal-to-kruti-dev    /tools/unicode-to-kruti-dev/   301
+/tools/english-to-hindi/      /tools/hindi-typing/           301
+/tools/english-to-hindi       /tools/hindi-typing/           301
+
+# Removed pages
+/fonts/ponnala/               /fonts/                        301
+/fonts/ponnala/*              /fonts/                        301
+
+# Old redirect-style download pages → font page (downloads are now direct)
+/fonts/:slug/download/        /fonts/:slug/                  301
+/fonts/:slug/download         /fonts/:slug/                  301
 
 # Common typo paths → correct paths
 /font/*         /fonts/:splat  301
 /download/*     /fonts/        302
 /hindi-font/*   /fonts/        301
-
-# 404 fallback (must be last)
-/*  /404.html  404
